@@ -4,5 +4,6 @@
     "azureFunctions.pythonVenv": ".venv",
     "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~3",
-    "debug.internalConsoleOptions": "neverOpen"
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureML.defaultWorkspaceId": "/subscriptions/f4d3c0c3-1f3b-4f56-b98e-af45b97241ad/resourceGroups/rg-mohamedelarbirabah-train-01/providers/Microsoft.MachineLearningServices/workspaces/DVF"
 }
