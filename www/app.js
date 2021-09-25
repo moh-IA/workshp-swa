@@ -5,10 +5,10 @@ const usernameElement = document.querySelector('#username');
 
 async function getUser() {
     const response = await fetch('/.auth/me');
-    const users = await response.json();
-    console.log(users);
+    const user = await response.json();
+    console.log(user);
     
-    usernameElement.innerHTML = "Hi, " + users.clientPrincipal.userDetails;
+    usernameElement.innerHTML = "Hi, " + user.clientPrincipal.userDetails;
     // TODO
     
 }
