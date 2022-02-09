@@ -7,7 +7,7 @@ import azure.functions as func
 
 
 COSMOSDB_CONN_STRING = str(os.environ["ConnectionString"])
-print(os.environ)
+
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
